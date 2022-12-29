@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1"
+    android:shrinkColumns="0">
+
+    <TableRow
+
+        android:id="@+id/tableRowId"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_span="4"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Student Details"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2Id"
+        android:background="#22d6ff"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Name"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Id"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="GPA"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="DOB"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3Id"
+        android:background="#22d6ff"
+        >
+
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Mobin"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="02"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="4.75"
+            />
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="12/06/2001"
+            />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/buttonId"
+        >
+        <Button
+            android:layout_column="2"
+            android:text="clear"
+            android:textSize="16sp"
+            />
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
